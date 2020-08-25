@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Aleksander Trinh",
+    "label": "Data Analyst/Web Dev",
+    "picture": "",
+    "email": "atrinh@pm.me",
+    "phone": "+48 510516219",
+    "website": "//",
+    "summary": "I am full stack developer that specializes in data centered applications and visualizations. I am experinced in data analysis and can use both ML/DL techniques to deliver valuable and comprehensible insights",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "john",
+        "url": "https://linkedin.com/john"
+      },
+      {
+        "network": "Github",
+        "username": "john",
+        "url": "https://github.com/john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "EY",
+      "position": "Python & JS developer",
+      "website": "http://company.com",
+      "startDate": "2020-07-01",
+      "summary": "Promoted internally to more technical role but still maintaining client oriented approach. Now specializing in advanced analytics, app development for financial sector."
+    },
+    {
+      "company": "EY",
+      "position": "Data Analyst",
+      "website": "http://company.com",
+      "startDate": "2019-07-01",
+      "summary": "As Data Analyst in S&O team was in charge of conducting extensive analyses on e-commerce and financial data as well as development of data based web application for banking sector"
+    },
+    {
+      "company": "Warsaw School of Economics",
+      "position": "Master/Bachelor",
+      "website": "http://company.com",
+      "startDate": "2014-10-01",
+      "summary": "Bachelor finished in 2014, Masters finished in 2020"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Warsaw School of Economics",
+      "area": "Advanced Analytics-Big Data",
+      "studyType": "Masters",
+      "startDate": "2017-01-01",
+      "endDate": "2020-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "Advanced Analytics-Big Data"
+      ]
+    },
+    {
+      "institution": "Korea Advanced Institute of Sciences and Technology(KAIST)",
+      "area": "Completion",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01",
+      "gpa": "3.2",
+      "courses": [
+        "Student Exchange"
+      ]
+    },
+    {
+      "institution": "Warsaw School of Economics",
+      "area": "Completion",
+      "studyType": "Bachelors",
+      "startDate": "2014-01-01",
+      "endDate": "2017-01-01",
+      "gpa": "3.1",
+      "courses": [
+        "Quantitative Methods in Economics and Information Systems"
+      ]
+    },
+    {
+      "institution": "National University of Singapore",
+      "area": "Science",
+      "startDate": "2016-01-01",
+      "endDate": "2016-01-01",
+      "gpa": "3.4",
+      "courses": [
+        "Student Exchange"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front end and data visualization",
+      "level": 5,
+      "keywords": [
+        "Vue.js",
+        "Javascript",
+        "Fireworks",
+        "InDesign",
+        "After Effects"
+      ]
+    },
+    {
+      "name": "Data Analytics/Backend",
+      "level": 6,
+      "keywords": [
+        "Python",
+        "R",
+        "Javascript",
+        "Fast.ai/"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": 4,
+      "keywords": [
+        "Graphic Design",
+        "Marketing",
+        "Web Design",
+        "Logo Design"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web App Development",
+      "keywords": [
+        "I have experience in building purposed web applications (using Vue.js and Python) that are optimized for desktop and smartphones."
+      ]
+    },
+    {
+      "name": "Data analysis and analytics",
+      "keywords": [
+        "I use various analysis techniques(eg. ML, customer, basket, spatial, leakage) to gain insights from any sort of data provided. Results, trends and recommendations are presented in clear manner."
+      ]
+    },
+    {
+      "name": "Dashboards and Infographics",
+      "keywords": [
+        "Using PowerBI and Python I am able to show results in an interactive way in form of dashboard, where one can examine all the outcomes by yourself. With the help of Adobe suite I can also create inspiring, animated infographics"
+      ]
+    },
+    {
+      "name": "Process automation",
+      "keywords": [
+        "I am able to write all sort of automated scripts that can gather data from different sources (eg. web scraping). I can also create data analysis pipelines for larger datasets using Azure."
+      ]
+    }
+  ]
+}
