@@ -1,3 +1,4 @@
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import Vue from 'vue'
 import Vuetify, { VLayout } from 'vuetify/lib'
 
@@ -22,5 +23,8 @@ export default new Vuetify({
         error: '#b71c1c',
       },
     },
+  },
+  icons: {
+    iconfont: 'md', // default - only for display purposes
   },
 })

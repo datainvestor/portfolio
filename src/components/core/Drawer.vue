@@ -62,7 +62,7 @@
           to: '#who-i-am',
         },
         {
-          text: 'Services',
+          text: 'Specializations',
           to: '#what-i-can-do-for-you',
         },
         {

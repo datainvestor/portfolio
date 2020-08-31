@@ -23,7 +23,6 @@
       iconMap: {
         github: 'mdi-github-box',
         linkedin: 'mdi-linkedin-box',
-        twitter: 'mdi-twitter-box',
       },
     }),
     computed: {

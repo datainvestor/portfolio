@@ -24,7 +24,7 @@
             Project Details
           </core-subheading>
           <core-text>
-            In ac felis quis tortor malesuada pretium. Phasellus dolor. Fusce fermentum odio nec arcu. Integer tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac felis quis tortor malesuada pretium. Phasellus dolor. Fusce fermentum odio nec arcu. Integer tincidunt.
+           {{value.desc}}
           </core-text>
 
         </div>
@@ -54,6 +54,7 @@
           name: '',
           category: '',
           src: undefined,
+          desc: ''
         }),
       },
     },

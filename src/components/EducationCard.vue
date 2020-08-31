@@ -14,7 +14,7 @@
 
       <v-col>
         <div
-          class="mb-3"
+          class="mb-3 font-weight-bold"
           v-text="value.institution"
         />
 
