@@ -10,13 +10,13 @@
           <core-subheading class="mb-3">Project Details</core-subheading>
           <core-text>
             My portfolio also consists of several data analysis projects, that I have done to hone my data visualization skills. I analyzed data from Kaggle and created heavily customized visuals using Python. Notebook containing those analyses are available to see on my
-            <v-btn link="https://github.com/datainvestor" icon>
+            <v-btn href="https://github.com/datainvestor" icon>
               <v-icon>mdi-github-circle</v-icon>
             </v-btn>Github profile.
           </core-text>
         </div>
       </v-col>
-      <v-col class="hidden-sm-and-down">
+      <v-col>
         <!-- <v-img
           :src="require(`@/assets/projects/${value.src}`)"
           height="350"
@@ -24,21 +24,24 @@
           contain
           class="mx-auto"
         />-->
-        <div class="fadein">
+        <div :class="{'fadeinsmall': $vuetify.breakpoint.smAndDown, 'fadein': $vuetify.breakpoint.mdAndUp}">
           <img
             id="f3"
             style="height:350px; width:500px; object-fit:contain;"
             src="../assets/projects/f1.png"
+            class="mx-auto"
           />
           <img
             id="f2"
             style="height:350px; width:500px; object-fit:contain;"
             src="../assets/projects/f2.png"
+            class="mx-auto"
           />
           <img
             id="f1"
             style="height:350px; width:500px; object-fit:contain;"
             src="../assets/projects/f3.png"
+            class="mx-auto"
           />
           <!-- <img src="../assets/projects/biere.jpg" />
           <img src="../assets/projects/portalml.png" />
@@ -65,6 +68,27 @@ export default {
 </script>
 
 <style scoped>
+
+
+.fadeinsmall {
+    position: absolute;
+    left: 25%;
+    margin: auto 0;
+    top:40%;
+  }
+
+.fadeinsmall img {
+  position: absolute;
+  left: -65px;
+  top: 0;
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 9s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+}
+
 .fadein {
   position: absolute;
   left: 50%;

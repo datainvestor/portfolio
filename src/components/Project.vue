@@ -31,7 +31,6 @@
       </v-col>
       <v-col
         v-if="value.src"
-        class="hidden-sm-and-down"
       >
         <v-img
           :src="require(`@/assets/projects/${value.src}`)"

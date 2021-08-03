@@ -6,7 +6,7 @@
     "email": "atrinh@pm.me",
     "phone": "+48 510516219",
     "website": "//",
-    "summary": "I am full stack developer that specializes in data centered applications and visualizations. I am experinced in data analysis and can use both ML/DL techniques to deliver valuable and comprehensible insights",
+    "summary": "My name is Aleksander and I am full stack developer that specializes in data centered applications and visualizations. I am experinced in data analysis and can use both ML/DL techniques to deliver valuable and comprehensible insights",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -16,24 +16,19 @@
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "john",
-        "url": "https://linkedin.com/john"
-      },
-      {
         "network": "Github",
         "username": "john",
-        "url": "https://github.com/john"
+        "url": "https://github.com/datainvestor"
       }
     ]
   },
   "work": [
     {
       "company": "EY",
-      "position": "Python & JS developer",
+      "position": "Full Stack Developer (Python/JS stack)",
       "website": "http://company.com",
       "startDate": "2020-07-01",
-      "summary": "Promoted internally to more technical role but still maintaining client oriented approach. Now specializing in advanced analytics, app development for financial sector."
+      "summary": "Promoted internally to more technical role but still maintaining client oriented approach. Now specializing in advanced analytics and web app development for financial sector. In charge of all DevOps related issues within the team."
     },
     {
       "company": "EY",
@@ -47,7 +42,7 @@
       "position": "Master/Bachelor",
       "website": "http://company.com",
       "startDate": "2014-10-01",
-      "summary": "Bachelor finished in 2014, Masters finished in 2020"
+      "summary": "Bachelor's degree finished in 2017, Master's in 2020"
     }
   ],
   "education": [
@@ -131,7 +126,7 @@
     {
       "name": "Web App Development",
       "keywords": [
-        "I have experience in building purposed web applications (using Vue.js and Python) that are optimized for desktop and smartphones."
+        "I have commerical experience in building purposed web applications (using Vue.js and Python) that are optimized for desktop and smartphones. I am comfortable using Docker for development and production as well as I am used to deploying apps using Azure services (Azure Web Apps, AKS, ACI, Virtual Machines)"
       ]
     },
     {
@@ -143,7 +138,7 @@
     {
       "name": "Dashboards and Infographics",
       "keywords": [
-        "Using PowerBI and Python I am able to show results in an interactive way in form of dashboard, where one can examine all the outcomes by yourself. With the help of Adobe suite I can also create inspiring, animated infographics"
+        "Using PowerBI and Python I am able to show results in an interactive way in form of dashboard, where one can examine all the outcomes by himself. With the help of Adobe suite I can also create inspiring, animated infographics"
       ]
     },
     {
