@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="8">
           <v-rating
-            length="6"
+            length="5"
             dense
             empty-icon="mdi-record"
             full-icon="mdi-record"
@@ -18,7 +18,7 @@
         </v-col>
       </v-row>
     </template>
-    <span> {{objectVars[rating]}}</span>
+    <span> {{ objectVars[rating] }}</span>
   </v-tooltip>
 </template>
 
@@ -27,12 +27,11 @@ export default {
   props: ["rating", "skill"],
   data: () => ({
     objectVars: {
-      1: "lol1",
-      2: "lol3",
-      3: "lol3",
-      4: "lol5",
-      5: "lol6",
-      6: "Used it extensively in production",
+      1: "Read about it, used it once, looking forward to learn about it in future",
+      2: "Used in small personal project, liked it",
+      3: "Used in bigger personal project extensively, loved it",
+      4: "Helped create commercial app using it",
+      5: "Worked as lead developer using it in commercial project",
     },
   }),
 };

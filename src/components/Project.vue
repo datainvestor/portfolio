@@ -34,7 +34,7 @@
       >
         <v-img
           :src="require(`@/assets/projects/${value.src}`)"
-          height="350"
+          height="280"
           width="500"
           contain
           class="mx-auto"

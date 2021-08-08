@@ -27,21 +27,24 @@
         <div :class="{'fadeinsmall': $vuetify.breakpoint.smAndDown, 'fadein': $vuetify.breakpoint.mdAndUp}">
           <img
             id="f3"
-            style="height:350px; width:500px; object-fit:contain;"
+            style="object-fit:contain;"
             src="../assets/projects/f1.png"
             class="mx-auto"
+            :class="{'sizesmall': $vuetify.breakpoint.smAndDown, 'size': $vuetify.breakpoint.mdAndUp}"
           />
           <img
             id="f2"
-            style="height:350px; width:500px; object-fit:contain;"
+            style="object-fit:contain;"
             src="../assets/projects/f2.png"
             class="mx-auto"
+            :class="{'sizesmall': $vuetify.breakpoint.smAndDown, 'size': $vuetify.breakpoint.mdAndUp}"
           />
           <img
             id="f1"
-            style="height:350px; width:500px; object-fit:contain;"
+            style="object-fit:contain;"
             src="../assets/projects/f3.png"
             class="mx-auto"
+            :class="{'sizesmall': $vuetify.breakpoint.smAndDown, 'size': $vuetify.breakpoint.mdAndUp}"
           />
           <!-- <img src="../assets/projects/biere.jpg" />
           <img src="../assets/projects/portalml.png" />
@@ -79,8 +82,8 @@ export default {
 
 .fadeinsmall img {
   position: absolute;
-  left: -65px;
-  top: 0;
+  left: -150px;
+  top: 75px;
   -webkit-animation-name: fade;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 9s;
@@ -139,6 +142,15 @@ export default {
   100% {
     opacity: 0;
   }
+}
+
+.size {
+  height:350px;
+  width:500px;
+}
+.sizesmall {
+  height:250px;
+  width:500px;
 }
 
 #f1 {

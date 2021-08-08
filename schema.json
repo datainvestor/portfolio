@@ -89,39 +89,6 @@
       ]
     }
   ],
-  "skills": [
-    {
-      "name": "Front end and data visualization",
-      "level": 5,
-      "keywords": [
-        "Vue.js",
-        "Javascript",
-        "Fireworks",
-        "InDesign",
-        "After Effects"
-      ]
-    },
-    {
-      "name": "Data Analytics/Backend",
-      "level": 6,
-      "keywords": [
-        "Python",
-        "R",
-        "Javascript",
-        "Fast.ai/"
-      ]
-    },
-    {
-      "name": "Other",
-      "level": 4,
-      "keywords": [
-        "Graphic Design",
-        "Marketing",
-        "Web Design",
-        "Logo Design"
-      ]
-    }
-  ],
   "interests": [
     {
       "name": "Web App Development",

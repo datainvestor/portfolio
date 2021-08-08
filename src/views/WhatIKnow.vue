@@ -33,27 +33,34 @@
         <v-col id="my-skills" cols="12" md="4" tag="section">
           <h3 class="headline font-weight-medium mb-4 primary--text">My Skills</h3>
 
-          <h4 class="text-uppercase mb-3 primary--text" v-text="`Data Analytics & Visualization`" />
+          <h4 class="text-uppercase mb-3 primary--text" v-text="`Web development`" />
           <div class="pr-md-6">
-            <skill-alt :rating="6" :skill="`Python`" />
-            <skill-alt :rating="4" :skill="`Fast.Ai+Keras`" />
-            <skill-alt :rating="3" :skill="`R+Shiny`" />
-            <skill-alt :rating="6" :skill="`PowerBI`" />
-            <skill-alt :rating="3" :skill="`Adobe CC (Infographics)`" />
-            <skill-alt :rating="4" :skill="`Azure cloud-scale analytics`" />
+            <skill-alt :rating="5" :skill="`Django`" />
+            <skill-alt :rating="4" :skill="`FastApi`" />
+            <skill-alt :rating="4" :skill="`Flask`" />
+            <skill-alt :rating="2" :skill="`Node.js`" />
+            <skill-alt :rating="5" :skill="`Docker`" />
+            <skill-alt :rating="5" :skill="`Vue.js`" />
+            <skill-alt :rating="2" :skill="`React`" />
+            <skill-alt :rating="3" :skill="`Strapi (Headless CMS)`" />
           </div>
-          <h4 class="text-uppercase mb-3 primary--text" v-text="`FrontEnd Dev`" />
+          <h4 class="text-uppercase mb-3 primary--text" v-text="`Programming Languages`" />
           <div class="pr-md-6">
             <skill-alt :rating="5" :skill="`Javascript`" />
-            <skill-alt :rating="6" :skill="`Vue.js`" />
+            <skill-alt :rating="5" :skill="`Python`" />
             <skill-alt :rating="5" :skill="`HTML5/CSS3`" />
+            <skill-alt :rating="2" :skill="`R+Shiny`" />
+            <skill-alt :rating="1" :skill="`Swift`" />
           </div>
 
-          <h4 class="text-uppercase mb-3 primary--text" v-text="`BackEnd Dev`" />
+          <h4 class="text-uppercase mb-3 primary--text" v-text="`Other`" />
           <div class="pr-md-6">
-            <skill-alt :rating="6" :skill="`Flask`" />
-            <skill-alt :rating="5" :skill="`Django`" />
-            <skill-alt :rating="4" :skill="`Node.js`" />
+            <skill-alt :rating="2" :skill="`Fast.Ai+Keras`" />
+            <skill-alt :rating="5" :skill="`PowerBI`" />
+            <skill-alt :rating="1" :skill="`ELK Stack`" />
+            <skill-alt :rating="5" :skill="`Azure Services(DevOps)`" />
+            <skill-alt :rating="2" :skill="`AWS`" />
+            <skill-alt :rating="2" :skill="`Circle CI`" />
           </div>
         </v-col>
       </v-row>
@@ -67,14 +74,13 @@ import { mapState } from "vuex";
 
 export default {
   name: "WhatIKnow",
-  data: () => ({ publicPath: process.env.BASE_URL }),
   components: {
     Abstract2: () => import("@/components/Abstract2"),
     EducationCard: () => import("@/components/EducationCard"),
     // Skill: () => import('@/components/Skill'),
     SkillAlt: () => import("@/components/SkillAlt")
   },
-
+  data: () => ({ publicPath: process.env.BASE_URL }),
   computed: {
     ...mapState("app", ["schema"])
   }
